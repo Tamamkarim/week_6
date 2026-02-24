@@ -47,7 +47,7 @@ const useMedia = () => {
           }),
         );
         setMediaArray(mediaWithOwners);
-        console.log(mediaWithOwners);
+        //console.log(mediaWithOwners);
       } catch (error) {
         console.error(error);
       }

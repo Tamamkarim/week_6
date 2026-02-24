@@ -1,13 +1,14 @@
 import {StatusBar} from 'expo-status-bar';
-import {StyleSheet, Text, Platform} from 'react-native';
+import {StyleSheet} from 'react-native';
 import {SafeAreaProvider, SafeAreaView} from 'react-native-safe-area-context';
+import Home from './views/Home';
 
 const App = () => {
   //console.log('First app version working!!');
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
-        <Text>Open up App.tsx to start working on your app!</Text>
+        <Home />
         <StatusBar style="auto" />
       </SafeAreaView>
     </SafeAreaProvider>
